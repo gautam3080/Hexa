@@ -305,9 +305,19 @@ MonoBehaviour:
   - {fileID: 5491633372301850137, guid: 1a862d108c67fcb43a59d24016c73675, type: 3}
   - {fileID: 3973881200720417387, guid: 801745c1f9969fe4b8fc55e4647b534d, type: 3}
   SpawnNinthLevelBtn: {fileID: 41105546}
+  retryBT: {fileID: 0}
   score: 28
   scoreText: {fileID: 1310797250}
+  LevelText: {fileID: 0}
+  winPanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  isEasy: 0
+  levelE: {fileID: 0}
+  cam: {fileID: 0}
+  winImage: {fileID: 0}
+  gameOverImage: {fileID: 0}
   ss: {fileID: 46167821}
+  sgs: {fileID: 0}
 --- !u!114 &46167821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,18 +330,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17d19757218aecb4abfefd77a3ad53c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hexaGreenStack: {fileID: 4278314521158838433, guid: 0ba7ec6a46cb7e74bbdf9e9bb506d297,
-    type: 3}
-  _hexaBlackStack: {fileID: 2109431661773088287, guid: f394e212b6440ea49909710075d3d2c1,
-    type: 3}
-  _hexaPinkStack: {fileID: 801279437296315365, guid: 0a31160896942874f8ad88b519606969,
-    type: 3}
-  _hexaOrangeStack: {fileID: 9131076510669765456, guid: 31b9f487042d3014c9b0452eb03dfeb5,
-    type: 3}
-  _hexaYellowStack: {fileID: 7779355284462857656, guid: 2b6db14b11d51c4468a3a9e4bc3c87c1,
-    type: 3}
-  _hexaRedStack: {fileID: 6427136122207096404, guid: c16f06a4b64771b4faeebb0d0f343401,
-    type: 3}
   tileSpawnInfo: {fileID: 5159256261912755897, guid: d9e4d6605bf21de498b8869a39138e72,
     type: 3}
   AdditionalSpawnInfosGo:
@@ -390,8 +388,8 @@ Camera:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.0627451, g: 0.0627451, b: 0.0627451, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
